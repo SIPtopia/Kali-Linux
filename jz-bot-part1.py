@@ -1,7 +1,7 @@
 from selenium import webdriver
 from time import sleep
 
-class SimpleBot:
+class ASimpleBot:
 
     def addingmytext(self):
         url = "<Your target URL goes here>"
@@ -79,6 +79,6 @@ class SimpleBot:
         # element10.send_keys("<whatever text you want to enter goes here>")
         # sleep(3)
 
-Iam = SimpleBot().addingmytext()
+Iam = ASimpleBot().addingmytext()
 
 
