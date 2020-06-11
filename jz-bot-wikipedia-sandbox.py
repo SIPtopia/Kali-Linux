@@ -5,7 +5,7 @@ class ASimpleBot:
 
     def addingmytext(self):
         url = "https://en.wikipedia.org/wiki/Wikipedia:Sandbox"
-        mybrowser = webdriver.Chrome(executable_path="/home/minime/Downloads/chromedriver")
+        mybrowser = webdriver.Chrome(executable_path="PATH TO THE DRIVER YOU DOWNLOADED")
         mybrowser.get(url)
         mybrowser.maximize_window()
 
